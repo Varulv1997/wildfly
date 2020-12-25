@@ -643,7 +643,7 @@
                 <artifactId>wildfly-appclient</artifactId>
                 <version>${ee.maven.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>xml-resolver</groupId>
                 <artifactId>xml-resolver</artifactId>
@@ -2237,7 +2237,7 @@
                 <artifactId>jsr181-api</artifactId>
                 <version>${version.javax.jws.jsr181-api}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>jakarta.jws</groupId>
                 <artifactId>jakarta.jws-api</artifactId>
@@ -5794,7 +5794,7 @@
                 <type>test-jar</type>
                 <scope>test</scope>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.eclipse.microprofile.metrics</groupId>
                 <artifactId>microprofile-metrics-api</artifactId>
@@ -9690,7 +9690,7 @@
                 <surefire.default-test.phase>none</surefire.default-test.phase>
             </properties>
         </profile>
-        
+
         <profile>
             <id>bootable.ee9.test.profile</id>
             <activation>
